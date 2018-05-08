@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		45013E9920A111AE00625286 /* MinutesTests3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45013E9820A111AE00625286 /* MinutesTests3.swift */; };
+		45013EA720A2125B00625286 /* AppCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45013EA120A2125B00625286 /* AppCenter.framework */; };
+		45013EA820A2125B00625286 /* AppCenterDistribute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45013EA220A2125B00625286 /* AppCenterDistribute.framework */; };
+		45013EA920A2125B00625286 /* AppCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45013EA320A2125B00625286 /* AppCenterAnalytics.framework */; };
+		45013EAA20A2125B00625286 /* AppCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45013EA420A2125B00625286 /* AppCenterCrashes.framework */; };
+		45013EAB20A2125B00625286 /* AppCenterDistributeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45013EA520A2125B00625286 /* AppCenterDistributeResources.bundle */; };
+		45013EAC20A2125B00625286 /* AppCenterPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45013EA620A2125B00625286 /* AppCenterPush.framework */; };
 		D3048F28202E2B2D00D45D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3048F27202E2B2D00D45D7E /* AppDelegate.swift */; };
 		D3048F2D202E2B2D00D45D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3048F2B202E2B2D00D45D7E /* Main.storyboard */; };
 		D3048F2F202E2B2D00D45D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3048F2E202E2B2D00D45D7E /* Assets.xcassets */; };
@@ -48,6 +54,12 @@
 		45013E9620A111AE00625286 /* MinutesTests3.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinutesTests3.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45013E9820A111AE00625286 /* MinutesTests3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesTests3.swift; sourceTree = "<group>"; };
 		45013E9A20A111AE00625286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45013EA120A2125B00625286 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "../../../../../Downloads/AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		45013EA220A2125B00625286 /* AppCenterDistribute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterDistribute.framework; path = "../../../../../Downloads/AppCenter-SDK-Apple/iOS/AppCenterDistribute.framework"; sourceTree = "<group>"; };
+		45013EA320A2125B00625286 /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "../../../../../Downloads/AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		45013EA420A2125B00625286 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "../../../../../Downloads/AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		45013EA520A2125B00625286 /* AppCenterDistributeResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AppCenterDistributeResources.bundle; path = "../../../../../Downloads/AppCenter-SDK-Apple/iOS/AppCenterDistributeResources.bundle"; sourceTree = "<group>"; };
+		45013EA620A2125B00625286 /* AppCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterPush.framework; path = "../../../../../Downloads/AppCenter-SDK-Apple/iOS/AppCenterPush.framework"; sourceTree = "<group>"; };
 		D3048F24202E2B2D00D45D7E /* Minutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3048F27202E2B2D00D45D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3048F2C202E2B2D00D45D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,6 +98,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45013EA820A2125B00625286 /* AppCenterDistribute.framework in Frameworks */,
+				45013EAA20A2125B00625286 /* AppCenterCrashes.framework in Frameworks */,
+				45013EAC20A2125B00625286 /* AppCenterPush.framework in Frameworks */,
+				45013EA920A2125B00625286 /* AppCenterAnalytics.framework in Frameworks */,
+				45013EA720A2125B00625286 /* AppCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,9 +118,23 @@
 			path = MinutesTests3;
 			sourceTree = "<group>";
 		};
+		45013EA020A211D800625286 /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				45013EA120A2125B00625286 /* AppCenter.framework */,
+				45013EA320A2125B00625286 /* AppCenterAnalytics.framework */,
+				45013EA420A2125B00625286 /* AppCenterCrashes.framework */,
+				45013EA220A2125B00625286 /* AppCenterDistribute.framework */,
+				45013EA520A2125B00625286 /* AppCenterDistributeResources.bundle */,
+				45013EA620A2125B00625286 /* AppCenterPush.framework */,
+			);
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
 		D3048F1B202E2B2D00D45D7E = {
 			isa = PBXGroup;
 			children = (
+				45013EA020A211D800625286 /* AppCenter */,
 				D3048F26202E2B2D00D45D7E /* Minutes */,
 				45013E9720A111AE00625286 /* MinutesTests3 */,
 				D3048F25202E2B2D00D45D7E /* Products */,
@@ -292,6 +323,7 @@
 				D3048F32202E2B2D00D45D7E /* LaunchScreen.storyboard in Resources */,
 				D3048F2F202E2B2D00D45D7E /* Assets.xcassets in Resources */,
 				D3048F2D202E2B2D00D45D7E /* Main.storyboard in Resources */,
+				45013EAB20A2125B00625286 /* AppCenterDistributeResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
